@@ -1,90 +1,50 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.pnpm-debug.log*
+# Git ignore for ZKP Auth Project
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-.report/
-
-# Runtime data
-*.node
-*.wasm
-
-# Dependency directories
-node_modules/
-/frontend/node_modules/
-/backend/venv/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional stylelint cache
-.stylelintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache/
-
-# Custom
-.vscode/
-.idea/
+# Operating System Files
 .DS_Store
-
-# dotenv environment variables file
-.env*
-
-# Vite
-.vite/
-dist/
-
-# Mac
-.DS_Store
-
-# Windows
-thumbs.db
 Thumbs.db
 
-# Linux
-.directory
-
-# Editor directories and files
-.idea
-.vscode
+# IDE and Editor Files
+.idea/
+.vscode/
 *.suo
 *.ntvs
 *.njsproj
 *.sln
 *.bak
 
-# Python
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend (React, Vite, Tailwind CSS)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.eslintcache
+
+# Backend (PHP, Composer)
+/backend/vendor/
+/backend/node_modules/ # In case of JS tools in backend
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+
+# Composer specific
+composer.lock # Typically committed, but can be ignored if desired for fresh installs
+/backend/composer.lock # If composer.lock is in backend dir
+
+# PHP specific
+*.phar
+
+# Python specific (if any Python files are present outside backend)
 __pycache__/
 *.pyc
-*.pyd
-*.pyo
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pytest
-.pytest_cache/
-.coverage
-.coverage.*
-htmlcov/
-.tox/
-.nox/
-
-# mypy
-.mypy_cache/
-
-# ruff
-.ruff_cache/
-
-# venv
 venv/

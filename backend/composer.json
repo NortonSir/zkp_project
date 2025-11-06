@@ -1,0 +1,12 @@
+{
+    "name": "zkp-auth/backend",
+    "description": "Backend for ZKP Auth Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gemini"
+        }
+    ],
+    "require": {}
+}
