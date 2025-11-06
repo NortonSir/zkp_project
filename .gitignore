@@ -1,0 +1,90 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Runtime data
+*.node
+*.wasm
+
+# Dependency directories
+node_modules/
+/frontend/node_modules/
+/backend/venv/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache/
+
+# Custom
+.vscode/
+.idea/
+.DS_Store
+
+# dotenv environment variables file
+.env*
+
+# Vite
+.vite/
+dist/
+
+# Mac
+.DS_Store
+
+# Windows
+thumbs.db
+Thumbs.db
+
+# Linux
+.directory
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# venv
+venv/
